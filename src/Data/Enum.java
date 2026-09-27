@@ -1,5 +1,5 @@
     public static Object toCharCode = (java.util.function.Function<Object, Object>) (c) ->
-        (int) ((Character) c);
+        (int) ((String) c).charAt(0);
 
     public static Object fromCharCode = (java.util.function.Function<Object, Object>) (c) ->
-        (char) ((Integer) c).intValue();
+        String.valueOf((char) ((Integer) c).intValue());
