@@ -4,5 +4,6 @@ public class __M$Test_Main {
     };
 
 
-public static final Object main = ((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (__M$Control_Bind.bind)).apply(__M$Effect.bindEffect))).apply(__M$Test_Data_Enum.testEnum))).apply((java.util.function.Function<Object, Object>) (_dollar___unused_0_i0) -> { return __M$Test_Data_Enum_Generic.testGenericEnum; });
+public static final Object main = __init$main();
+    private static Object __init$main() { return ((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (__M$Control_Bind.bind)).apply(__M$Effect.bindEffect))).apply(__M$Test_Data_Enum.testEnum))).apply((java.util.function.Function<Object, Object>) (_dollar___unused_0_i0) -> { return __M$Test_Data_Enum_Generic.testGenericEnum; }); }
 }
